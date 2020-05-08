@@ -262,19 +262,28 @@
                        <div class="card-header" style="background-color: #02499B; border-bottom-left-radius: 60px; border-bottom-right-radius: 60px; padding: 50px;">
                            <p class="text-white h4 mb-4">Setup An Account</p>
 
-                           <div class="form-group">
-                               <label class="text-white text-left" for="account-type">Select Account Type:</label>
-                               <select id="account-type" class="form-control">
-                                   <option>Buyers</option>
-                                   <option>Sellers</option>
-                                   <option>Delivery Merchant</option>
-                                   <option>Fast Food Vendor</option>
-                                   <option>Groceries Sellers</option>
-                                   <option>Networking Agent</option>
-                                   <option>Professional Service</option>
-                               </select>
 
-                           </div>
+                           <form action="#" class="col-10 search-wrap">
+                               <label class="text-white text-left" for="">Select Account Type:</label><br>
+                               <div class="input-group">
+
+                                   <div class="input-group-prepend text-light" style="background-color: white; width: 600px; height: 35px;">
+
+                                       <div class="dropdown-menu">
+                                           <a class="dropdown-item" href="#">Buyers</a>
+                                           <a class="dropdown-item" href="#">Sellers</a>
+                                           <a class="dropdown-item" href="#">Delivery Merchant</a>
+                                           <a class="dropdown-item" href="#">Fast Food Vendor</a>
+                                           <a class="dropdown-item" href="#">Groceries Sellers</a>
+                                           <a class="dropdown-item" href="#">Networking Agent</a>
+                                           <a class="dropdown-item" href="#">Professional Service</a>
+
+                                       </div>
+                                       <button style="background-color: white;" class="btn input-group-text dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           </button>
+                                   </div>
+                               </div>
+                           </form>
                        </div>
 
                       <div class="card-body" style="padding: 20px;">
@@ -283,11 +292,11 @@
                           <br>
 
                           <div class="form-group">
-                              <label for="defaultRegisterFormName" class="text-left">Username or Email Address</label>
+                              <label for="defaultRegisterFormName" class="text-left">Email Address</label>
                               <input type="text" id="defaultRegisterFormName" class="form-control" placeholder="">
 
                               <small id="" class="form-text text-muted mb-4">
-                                  (Enter a unique username)
+                                  (Enter a unique Email address)
                               </small>
                           </div>
 
@@ -306,14 +315,27 @@
                           <br>
 
                           <div class="form-group">
-                              <label for="currecy-type">Select operation currency</label>
-                              <input id="currecy-type" class="form-control" type="text" placeholder="We operate on Naira, Dollars and Pounds">
+                              <label for="">Select operation currency</label>
+                              <div class="input-group">
+
+                                  <div class="input-group-prepend text-light" style="background-color: white; width: 600px; height: 35px;">
+
+                                      <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Naira</a>
+                                          <a class="dropdown-item" href="#">Dollars</a>
+                                          <a class="dropdown-item" href="#">Pounds</a>
+
+                                      </div>
+                                      <button style="background-color: white;  width: 600px; height: 35px;" class="btn input-group-text dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      </button>
+                                  </div>
+                              </div>
 
                           </div>
 
                           <br>
 
-                          <div class="form-check">
+                          <div class="form-check text-center">
                               <input class="form-check-input" type="checkbox" name="remember" id="remember">
 
                               <label class="form-check-label" for="remember">
@@ -324,9 +346,9 @@
 
 
                           <br>
-                          <a href="manufacturer-signup.html" class="btn btn-danger text-white" style="text-align:center; border-radius: 20px; width: 200px;">Next</a>
+                          <a href="manufacturer-signup.html" class="btn btn-danger text-white" style="text-align:center; border-radius: 20px; width: 200px; margin-left: 220px;">Next</a>
                           <hr>
-                          <div class="up-help">
+                          <div class="up-help text-center">
                               <p class="m-b-5">Already have an account yet? <a style="color:red;" href="login.html">Login Now</a></p>
                           </div>
                       </div>
